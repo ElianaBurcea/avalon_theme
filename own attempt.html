@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet"  href="C:\Users\Eli\Desktop\sticky\avalon_theme\font-awesome-4.5.0\css\font-awesome.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+  }
+body {
+  font-family: sans-serif;
+
+}
+.col{
+  float: left;
+  padding: 0.5%;
+  height: 100px;
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  }
+.row{
+  width: 100%;
+  }
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  }
+.image-logo {
+  height: 100px;
+  width: 100px;
+  }
+.menu {
+  height: 100px;
+  width: 100%;
+  }
+ul {
+  float: right;
+  padding-left: 0px;
+  }
+.menu li  {
+ position: relative;
+ display: inline-block;
+ padding-right: 25px;
+ list-style-type: none;
+ }
+a {
+ text-decoration: none;
+ color: black;
+ font-weight: bold;
+ }
+a .submenu {
+border-bottom: 1px solid grey;
+}
+li:hover > ul {
+ display: block;
+
+ }
+.menu li:hover .submenu {
+ background-color: white;
+ }
+li .submenu {
+border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+}
+li .sub-submenu {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.submenu {
+ position: absolute;
+ display: none;
+ float: left;
+ background-color: grey;
+ line-height: 25px;
+ font-size: 12px;
+ }
+.sub-submenu {
+ position: absolute;
+ display: none;
+ width: 175px;
+ height: 150px;
+ font-size: 12px;
+ background-color: white;
+ text-align: right;
+ }
+.features-styling {
+  top: 0;
+  left: -175px;
+   }
+.features-styling-text {
+width: 200px;
+}
+.store {
+ height: 100px;
+ width: 150px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+ }
+.shop {
+ height: 100px;
+ width: 150px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+ }
+.shop-styling {
+top:0;
+left: -150px;
+width: 150px;
+}
+.pages-styling {
+width: 150px;
+}
+.features-submenu-styling {
+width: 150px;
+}
+.shop-styling-text {
+width: 130px;
+}
+.blog-styling {
+width: 150px;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="header">
+    <div class="col col-6">
+      <img class="image-logo" src="logo.png">
+    </div>
+    <div class="col col-6">
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">HOME</a>
+            <ul class="submenu">
+            <li><a href="#">Home 1</a></li>
+            <li><a href="#">Home 2</a></li>
+            <li><a href="#">Home 3</a></li>
+            <li><a href="#">Home 4</a></li>
+            <li><a href="#">Home 5</a></li>
+          </ul>
+          </li>
+          <li><a href="#">PAGES</a>
+            <ul class="submenu pages-styling">
+              <li><a href="#">Landing pages</a></li>
+              <li><a href="#">General pages</a></li>
+              <li><a href="#">Poftfolio pages</a></li>
+              <li><a href="#">Single pages</a></li>
+              <li><a href="#">Special pages</a></li>
+              </ul>
+          </li>
+          <li><a href="#">FEATURES</a>
+            <ul class="submenu features-submenu-styling">
+              <li><a href="#">Features set one</a>
+                <ul class="sub-submenu features-styling">
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 1-1</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 1-2</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 1-3</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 1-3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Features set two</a>
+                <ul class="sub-submenu features-styling">
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 2-1</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 2-2</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 2-3</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 2-3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Features set three</a>
+                <ul class="sub-submenu features-styling">
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 3-1</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 3-2</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 3-3</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 3-3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Features set four</a>
+                <ul class="sub-submenu features-styling">
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 4-1</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 4-2</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 4-3</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 4-3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Features set five</a>
+                <ul class="sub-submenu features-styling">
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 5-1</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 5-2</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 5-3</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Features 5-3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">SHOP</a>
+            <ul class="submenu shop-styling-text">
+              <li><a href="#">Shop pages</a>
+                <ul class="sub-submenu shop-styling">
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Shop</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Shop simple</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Shop sidebar</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Product detail</a></li>
+                  <li><i class="fa fa-shopping-bag"></i>&nbsp;<a href="#">Cart</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Best sale offers</a>
+                <ul class="sub-submenu shop-styling">
+                <img class="store" src="store.jpg">
+              </ul>
+              </li>
+              <li><a href="#">Weekly exclusive offers</a>
+                <ul class="sub-submenu shop-styling">
+                <img class="shop" src="shop.jpg">
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">BLOG</a>
+            <ul class="submenu blog-styling">
+              <li><a href="#">Main pages</a></li>
+              <li><a href="#">Masonary</a></li>
+              <li><a href="#">Blog single</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+</body>
+</html>

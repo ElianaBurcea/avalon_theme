@@ -1,0 +1,84 @@
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+.list-group {
+  margin-left: 0px;
+}
+.social-media {
+  margin-right: 0px;
+}
+.logo {
+  float: left;
+  height: 100%;
+  width: 40%;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #E6E6E6;
+}
+.navbar-inverse {
+  height:auto;
+}
+.computer {
+  display: none;
+}
+.image-display {
+  height: 300px;
+}
+.standard-text {
+  text-align: center;
+}
+.recent-case-studies {
+  height: 220px;
+}
+.recent-projects {
+  height: 700px;
+}
+.modern-technologies {
+height: 170px;
+margin-bottom: 40px;
+}
+.arrows {
+  height: 170px;
+  margin-bottom: 40px;
+}
+.recent-projects h3 {
+margin-bottom: 20px;
+text-align: center;
+}
+.testimonial {
+  height: 525px;
+  padding-top: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.flicker-arrows {
+  display: inline-block;
+  margin-left: 5px;
+}
+.widgets-area {
+  height: 750px;
+}
+.widgets-area .logo {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.widgets-area p {
+  padding-top: 10px;
+  text-align: center;
+}
+.widgets-area h3 {
+  text-align: center;
+}
+.widgets-area .fa {
+  display: block;
+}
+.contact-info {
+  text-align: center;
+}
+.footer {
+  height: 150px;
+  text-align: center;
+}
+.tweet-example {
+  float: none;
+}
